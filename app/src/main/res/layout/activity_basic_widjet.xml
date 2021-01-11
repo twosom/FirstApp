@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BasicWidjet"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:background="@color/purple_200"
+        android:id="@+id/text1" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:background="@color/teal_700"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:layout_height="wrap_content"
+        android:text="한 줄 입력 받기"
+        android:id="@+id/edit1"
+        android:inputType="text" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="키보드 숨기기"
+        android:id="@+id/hideBtn"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="키보드 보이기"
+        android:id="@+id/showBtn" />
+
+
+
+
+</LinearLayout>
